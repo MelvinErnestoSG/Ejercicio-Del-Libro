@@ -1,0 +1,32 @@
+﻿<Window x:Class="Ejercicio_Del_Libro_En_Wpf._01_Capitulos_1_al_3.Capitulos_2.Ejercicio_5.Capitulo2_Ejercicio5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio_Del_Libro_En_Wpf._01_Capitulos_1_al_3.Capitulos_2.Ejercicio_5"
+        mc:Ignorable="d"
+        Title="Capitulo2_Ejercicio5" Height="406" Width="550" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Margin="5">
+            <Label Content="Cantidad De Dolares:"/>
+            <TextBox x:Name="DolarTextBox" HorizontalAlignment="Left" Width="80" Height="20"/>
+
+            <Label Content="Cantiadad De Euros:"/>
+            <TextBox x:Name="EuroTextBox" HorizontalAlignment="Left" Width="80" Height="20"/>
+
+            <Label Content="Valor De la Tasa Del Dolar:"/>
+            <TextBox x:Name="TasaDolarTextBox" HorizontalAlignment="Left" Width="80" Height="20"/>
+
+            <Label Content="Valor De la Tasa Del Euro:"/>
+            <TextBox x:Name="TasaEuroTextBox" HorizontalAlignment="Left" Width="80" Height="20"/>
+
+            <Button x:Name="CalcularBoton" Content="Calcular" HorizontalAlignment="Left" Margin="0,10" Height="40" Width="60" Click="CalcularBoton_Click"/>
+
+            <Label x:Name="ResultDolarLabel" Content="Resultado Del Dolar:"/>
+            <TextBox x:Name="ResultDolarTextBox" HorizontalAlignment="Left" Margin="0,5" Width="140"/>
+
+            <Label x:Name="ResultEuroLabel" Content="Resultado Del Euro:"/>
+            <TextBox x:Name="ResultEuroTextBox" HorizontalAlignment="Left" Margin="0,5" Width="140"/>
+        </StackPanel>
+    </Grid>
+</Window>

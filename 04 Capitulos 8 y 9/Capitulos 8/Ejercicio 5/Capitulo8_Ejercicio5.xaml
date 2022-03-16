@@ -1,0 +1,17 @@
+﻿<Window x:Class="Ejercicio_Del_Libro_En_Wpf._04_Capitulos_8_y_9.Capitulos_8.Ejercicio_5.Capitulo8_Ejercicio5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ejercicio_Del_Libro_En_Wpf._04_Capitulos_8_y_9.Capitulos_8.Ejercicio_5"
+        mc:Ignorable="d"
+        Title="Capitulo8_Ejercicio5" Height="180" Width="550" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Margin="5">
+            <Label Content="Introduce las dos cadenas a muestra." HorizontalAlignment="Center" Margin="0,5"/>
+            <TextBox x:Name="StringOneTextBox" Margin="5" Width="160"></TextBox>
+            <TextBox x:Name="StringTwoTextBox" Margin="5" Width="160" ></TextBox>
+            <Button x:Name="VerificarButton" Content="Varificar Resultado" Margin="0,10" Width="110" Click="VerificarButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>
