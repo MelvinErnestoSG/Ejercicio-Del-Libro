@@ -1,4 +1,4 @@
-# Ejercicio_Del_Libro_En_Wpf
+# Ejercicio Del Libro
 
 # Ejercicio 1
 
